@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Works</title>
+    <style>
+             *{
+          margin: 0;
+         padding: 0;
+         }
+        body {
+            background-image: url( 'https://img.freepik.com/free-photo/light-gray-abstract-background_53876-101909.jpg?ga=GA1.1.569457495.1721808677&semt=ais_hybrid');   
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color:lightskyblue;
+            height: 110px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+         header h1{
+            text-align: center;
+            color: rgb(245, 241, 245);
+            font-size: 2.5em;
+            padding-top: 32px;
+   }
+        .a1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 120px;
+            gap: 40px;
+            padding: 20px;
+        }
+
+        .b1 {
+            width: 360px;
+            height: 302px;
+            margin: 20px;
+            padding: 5px;
+            border: 1px solid rgb(83, 123, 83);
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .b1:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(-10px);
+        }
+
+        .b1 img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .b1 img:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        .b1 h1 {
+            font-size: 1.5em;
+            color:white;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: color 0.3s ease-in-out;
+            background-color: lightskyblue;
+            padding-bottom: 7px;
+            padding-top: 2px;
+        }
+        .b1 a {
+          text-decoration: none;
+        }
+
+     
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b>JS WORKS</b></h1>
+    </header>
+    <div class="a1">
+        <div class="b1">
+            <a href="transaction.project/index.html">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.ryTtySlUIdvln_LPzvJOTQHaE3&pid=Api&P=0&h=180" alt="Transaction">
+                <h1>TRANSACTION</h1>
+            </a>
+        </div>
+        <div class="b1">
+            <a href="shopping/index.html">
+                <img src="https://img.freepik.com/free-photo/conceptual-shopping-with-wooden-blocks-shopping-bag-wooden-table-flat-lay_176474-10555.jpg?ga=GA1.1.569457495.1721808677&semt=ais_hybrid" alt="Shopping">
+                <h1>SHOPPING</h1>
+            </a>
+        </div>
+        <div class="b1">
+            <a href="api calling/index.html">
+                <img src="https://img.freepik.com/free-photo/application-programming-interface-hologram_23-2149092255.jpg?ga=GA1.1.569457495.1721808677&semt=ais_hybrid" alt="API">
+                <h1>API CALLING</h1>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
